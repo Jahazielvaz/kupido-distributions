@@ -1,0 +1,124 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background: url("pics/cosmetics1.jpg") fixed center;
+}
+
+div#page-container{
+  max-width: 1300px;
+  margin: auto;
+  background: white;
+  min-height: 1000px;
+}
+
+
+/* HEADER SECTION */
+header{
+  background: #555;
+  padding: 10px;
+}
+
+header .description-heading{
+  font-family: "Cinzel";
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+header .contact-heading{
+  margin-left: 45px;
+  font-family: "Cinzel";
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+header h1{
+  font-family: "ranga";
+  margin-left: 135px;
+  color: orange;
+  text-shadow: 1px 1px 10px black;
+}
+
+/* TOP NAV */
+nav#header-nav{
+  margin: auto;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  text-align: center;
+  min-width: 700px;
+  background: #ddd;
+
+}
+
+nav#header-nav li{
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  margin: 0 5px;
+  line-height: 28px;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  font-size: 22px;
+}
+
+nav#header-nav li{
+  color: orange;
+}
+
+nav#header-nav li:hover{
+  background: #314770;
+  transition: .5s;
+  color: white;
+}
+
+
+
+
+
+/* FOOTER SECTION */
+footer{
+  background: #333;
+  min-height: 120px;
+}
+
+
+
+
+
+/* This is just a temporary section for colors */
+div#colors{
+  background: white;
+  padding: 20px;
+  width: 300px;
+}
+
+div#colors div{
+  display: inline-block;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+
+}
+
+#div1{background: orange;}
+#div2{background: #1D5975;}
+#div3{background: #06476F;}
+#div4{background: #314770;}
+#div5{background: #333;}
+#div6{background: #808080;}
+#div7{background: #ccc;}
+#div8{background: #C65441;}
+
+#colors{
+
+}
+/* End of temp section */
