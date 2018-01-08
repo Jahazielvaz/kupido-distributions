@@ -1,0 +1,30 @@
+#main{
+  height: 300px;
+  border: 2px solid yellow;
+}
+
+#main div{
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+}
+
+#l1{
+  height: 100px;
+  width: 400px;
+  background: blue;
+}
+
+#l2{
+  height: 100px;
+  width: 200px;
+  background: green;
+
+}
+
+#l3{
+  height: 100px;
+  width: 200px;
+  background: yellow;
+  width: 240px;
+}

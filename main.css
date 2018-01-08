@@ -88,52 +88,48 @@ nav#header-nav li:hover{
 footer{
   background: #333;
   min-height: 170px;
-  padding-top: 10px;
 }
 
+div#footer-container{
+  border: 2px solid red;
+}
 
-section#payment{
-  min-height: 40px;
-  width: 290px;
+div#footer-container div{
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Footer Left */
+div#footer-left{
+  max-width: 300px;
+  min-height: 200px;
   border: 2px solid yellow;
-  color: white;
-  float: right;
-  margin-top: 5px;
-  margin-right: 50px;
+  display: inline-block;
 }
 
-section#payment article.fa{
-  font-size: 50px;
-  letter-spacing: 5px;
-}
-
-section#social{
-  width: 270px;
-  min-height: 40px;
+/* Footer Mid */
+div#footer-mid{
+  max-width: 300px;
+  min-height: 200px;
   border: 2px solid green;
-  text-align: center;
-  margin: auto;
-
+  display: inline-block;
 }
 
-section#social a.fa{
-  color: white;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black;
-  letter-spacing: 15px;
+/* Footer Right */
+div#footer-right{
+  max-width: 300px;
+  min-height: 200px;
+  border: 2px solid blue;
 }
 
 
-
-
-
+/* Copyright */
 section#copyright{
-  color: white;
-  display: block;
   text-align: center;
-  background: #222;
+  background: #223;
+  display: block;
+  color: white;
   font-size: 20px;
-  padding: 3px;
 }
 
 /* This is just a temporary section for colors */
