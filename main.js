@@ -15,3 +15,34 @@
 // headerNavList.addEventListener("mouseover", function(){
 //   headerNavList.style.background = "#314770";
 // });
+
+var pageSelector = document.getElementById("page-selector");
+
+var about = document.getElementById("yolo");
+var aboutBtn = document.getElementById("about");
+
+var contact = document.getElementById("yomo");
+var contactBtn = document.getElementById("contact");
+
+var home = document.getElementById("yoto");
+var homeBtn = document.getElementById("home");
+
+var nav = [about, contact];
+
+
+function pageSwitch(){
+  pageSelector.appendChild(about);
+}
+aboutBtn.addEventListener("click", pageSwitch);
+
+
+// aboutBtn.addEventListener("click", function(){
+//   pageSelector.appendChild(about);
+// });
+
+
+
+// contactBtn.addEventListener("click", function(){
+//   pageSelector.appendChild(contact);
+//   aboutBtn.removeEventListener()
+// });

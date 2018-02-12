@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+
+a{
+	color: orange;
+}
+
+.log{
+	color: white;
+}
+
+h2.title-one{
+	position:absolute;
+	top:5px;
+	left:10px;
+}
+
+h1.text-edit, h2.text-edit2{
+	text-align:center;
+}
+
+h1.text-edit{
+	font-size:35px;
+}
+
+h2.text-edit2{
+	font-size:20px;
+}
+
+#body-container{
+	background: white;
+
+}
+
+#signup-container{
+	padding: 50px;
+}
+
+div#signup-container form{
+	padding:30px;
+	background-color:#E4E4E4;
+	height:700px;
+	width:500px;
+	margin: auto;
+	filter:opacity(90%);
+
+}
+
+.signup-h{
+	background-color:#777;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-right:0px;
+	margin-top:0px;
+	width:558px;
+	height:20px;
+	position:relative;
+	top:-30px;
+	right:29px;
+}
+
+h2.account-text{
+	margin-top:5px;
+	margin-bottom:40px;
+	text-align:center;
+
+}
+
+hr.break-bar{
+	width:500px;
+	margin:20px  auto;
+
+}
+
+
+input.name-text, input.last-name-text, input.email-address, input.password, input.password-retype{
+	margin-top:20px;
+	width:500px;
+	height:40px;
+	font-size:20px;
+
+}
+
+p.min{
+	margin-top:10px;
+	font-size: 13px;
+	text-align:center;
+}
+
+input.input-checkbox{
+	size:15%;
+	position:relative;
+	left:0px;
+}
+
+p.updates-notice{
+	margin:30px auto;
+	position:relative;
+	bottom:90px;
+	left:30px;
+}
+
+input.create-account{
+	margin-top:20px;
+	height:50px;
+	width:500px;
+	color:white;
+	background-color:blue;
+	position:relative;
+	left:0px;
+	bottom:130px;
+	font-size:20px;
+}
+
+a.what-are-these{
+	font-size:12px;
+}

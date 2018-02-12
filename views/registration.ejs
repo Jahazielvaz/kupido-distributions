@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Kupido Distributions</title>
+	<link rel="stylesheet" href="registration.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel|Open+Sans+Condensed:300|Ranga|Teko" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+	<div id="page-container">
+		<header>
+			<% include partials/header.ejs %>
+		</header>
+
+		<% include partials/header-nav.ejs %>
+		<div id="body-container">
+
+			<div id="signup-container">
+				<form>
+					<div class="signup-h">
+					<center><p class="log">Already have an account? <a href="file:///Users/KupidoExportLLC/Desktop/web-dev-projects/Auto%20Biography/login.html">Sign in</a></p></center>
+					</div>
+
+
+					<h2 class="account-text">Create Account</h2>
+					<hr class="break-bar">
+
+					<div class="content-one">
+						<input type="text" placeholder="First Name" class="name-text">
+						<input type="text" placeholder="Last Name" class="last-name-text">
+						<input type="text" placeholder="Email Address" class="email-address">
+						<input type="password" placeholder="Password" class="password">
+						<input type="password" placeholder="Re-type password" class="password-retype">
+							<p class="min">
+								<b>Minimum of eight characters, one letter, and one number.</b>
+							</p>
+						<input class="input-checkbox" type="checkbox" style= "width:100px; height:100px;">
+						<p class="updates-notice">
+							Get Updates: I agree to receive <br> e-news, events, and product updates from Kupido Distributors LLC <br> I can unsubscribe at any time. <a href="#" class="what-are-these">&lpar;What are these?&rpar;</a>
+						</p><br>
+
+						<input type="submit" value="Create Account" class="create-account">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<% include partials/footer.ejs %>
+		</footer>
+
+		<% include partials/copyright.ejs %>
+	</div>
+</body>
+</html>

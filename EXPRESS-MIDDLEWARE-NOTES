@@ -1,0 +1,30 @@
+app.use = This will run middleware on all requests.
+  EXAMPLE:
+    app.use(body-parser());
+    app.use(cookieParser());
+
+    app.get(/, function(req, res){
+    res.render(index);
+    });
+
+    In this example above, app.get would run body-parser, and cookieParser, because app.use makes it so that it runs that middleware on all routes
+
+function log(req, res, next){
+console.log(new Date(), req.method, req.url);
+next();
+}
+
+  This function above will log out the date, the request method whether thats a get post, etc, and the url that requested it, to the console.
+
+function hello(req, res, next){
+res.write('Hello\n' + 'World');
+res.end();
+next();
+}
+  The hello function, will write to our browser the words hello world.
+  NOTE: In both instances we pass the next() parameter to make sure we move on to the next function in our middleware chain.
+
+
+WE COULD ALSO JUST PASS IN THESE FUNCTIONS AS PARAMETERS TO A GET REQUEST
+
+app.get('/', log, hello);

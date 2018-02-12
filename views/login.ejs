@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+	<div id="page-container">
+
+		<header>
+      <% include partials/header.ejs%>
+		</header>
+
+    <% include partials/header-nav.ejs %>
+
+    <section id="body-container">
+
+      <h1 id="welcome">WELCOME BACK!</h1>
+  		<div id="signin-container">
+  			<form>
+  				<h2 class="signin-text">Sign In</h2>
+  				<hr class="break-bar">
+
+  				<div class="content-one">
+  					<input type="email-address" placeholder="Email" class="email-address">
+  					<input type="password" placeholder="Password" class="password">
+  				</div>
+
+  				<a href="#"><p class="reset-password">Reset Password</p></a>
+
+
+  				<input type="submit" value="SIGN IN" class="login-bt">
+
+  				<div class="signup-option">
+  					<center><p><a href="#">Create Account</a></p></center>
+  				</div>
+  			</form>
+  		</div>
+    </section>
+
+		<footer>
+      <% include partials/footer.ejs %>
+		</footer>
+
+    <% include partials/copyright.ejs %>
+
+	</div>
+</body>
+</html>
